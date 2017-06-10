@@ -1,0 +1,25 @@
+body .content {
+  width: 75%;
+  margin: auto;
+}
+
+.centered {
+  text-align: center;
+}
+
+.content .lead {
+  text-align: center;
+}
+
+p {
+  font-size: 1.05em;
+}
+
+nav ul .active {
+  border-bottom: 2px solid black;
+}
+
+nav ul li ul .active {
+  border-left: 2px solid black;
+  /* TODO implement dropdown */
+}
