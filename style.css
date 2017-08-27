@@ -23,3 +23,21 @@ nav ul li ul .active {
   border-left: 2px solid black;
   /* TODO implement dropdown */
 }
+
+@media screen and (max-width: 768px) {
+    .date {
+        text-align: left;
+    }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1280px) {
+    .date {
+        text-align: right;
+    }
+}
+
+@media screen and (min-width: 1281px) {
+    .date {
+        text-align: right;
+    }
+}
