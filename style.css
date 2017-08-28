@@ -24,20 +24,28 @@ nav ul li ul .active {
   /* TODO implement dropdown */
 }
 
+div > p:first-child {
+  font-weight: bold;
+}
+
 @media screen and (max-width: 768px) {
     .date {
         text-align: left;
+        font-weight: bold;
+        font-size: 1.1em;
     }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1280px) {
     .date {
         text-align: right;
+        font-weight: bold;
     }
 }
 
 @media screen and (min-width: 1281px) {
     .date {
         text-align: right;
+        font-weight: bold;
     }
 }
